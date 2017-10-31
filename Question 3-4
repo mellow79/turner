@@ -1,0 +1,19 @@
+3.
+a) SELECT phone FROM employees WHERE idNum = '1354';
+b) DELETE FROM employees WHERE idNum = '1114';
+c) UPDATE employees SET Salary = '32846' WHERE idNum = '1556';
+
+
+BONUS
+1.Explain how cachin works in drupal.
+Drupal handles cache with a tagging system. for instance changing a menu will be assigned a tag until something changes within
+it. Drupal doesn't have to go to the process of recreating that block or the content thats associated with that block unless
+one or the other changes.
+
+2. Describe Drupal 8's database structure.
+Table structure answer:
+
+Drupal 8 tables are prefixed with the typ of entity that they belong too
+Language column is now langcode, user tables are now split into users and users_field_data
+
+
